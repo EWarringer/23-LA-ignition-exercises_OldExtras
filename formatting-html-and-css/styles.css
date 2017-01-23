@@ -1,0 +1,36 @@
+body {
+  margin: 3px 6px;
+  background-color: rgb(246, 246, 239);
+  font-family: verdana;
+}
+
+header {
+  background-color: rgb(253, 102, 33);
+}
+
+
+header:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+header { display: inline-block; }
+* html header { height: 1%; }
+header { display: block; }
+
+header h2 {
+  float: left;
+  padding-top:5px;
+  margin: 0px 5px;
+  font-family: courier;
+  color: white;
+}
+
+header h4 {
+  text-align: center;
+  padding: 10px 0px;
+  margin: 0;
+}

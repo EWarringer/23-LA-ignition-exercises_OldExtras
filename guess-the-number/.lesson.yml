@@ -1,0 +1,8 @@
+---
+title: "Guess the Number"
+type: "challenge"
+description: "The action never stops in this command-line guessing game."
+depends: "compound-interest-calculator"
+visibility: "assign"
+ignore:
+- "guess-the-number.md"
